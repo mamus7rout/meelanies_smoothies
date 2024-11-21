@@ -54,6 +54,7 @@ if ingredients_list:
         st.subheader(fruit_chosen + 'Nutrition Information')
         fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + search_on)
         #st.write(fruityvice_response.json())
+        st.text(fruityvice_response)
 
         
        # fv_df = json_normalize(fruityvice_response.json())

@@ -59,4 +59,4 @@ if ingredients_list:
         
        # fv_df = json_normalize(fruityvice_response.json())
         #st.dataframe(data=fv_df, use_container_width=True)
-        #fv_df = st.dataframe(data=fruityvice_response.json(),use_container_width=True)
+        fv_df = st.dataframe(data=fruityvice_response.json(),use_container_width=True)
